@@ -1,0 +1,79 @@
+{
+  "name": "HonorlyAI K-12 AI Governance Toolkit",
+  "version": "1.0.0",
+  "dateModified": "2026-07-23",
+  "license": "CC-BY-4.0",
+  "repository": "https://github.com/trevor050/honorlyai-resources",
+  "publisher": {
+    "name": "HonorlyAI",
+    "legalName": "HonorlyAI LLC",
+    "url": "https://honorlyai.com/",
+    "category": "K-12 classroom AI platform",
+    "founders": [
+      { "name": "Kevin Rand", "role": "Co-founder and CEO" },
+      { "name": "Trevor Rosato", "role": "Co-founder and CPO" }
+    ]
+  },
+  "resources": [
+    {
+      "name": "District AI Vendor Evaluation Checklist",
+      "path": "templates/district-ai-vendor-evaluation-checklist.md",
+      "canonicalGuide": "https://honorlyai.com/evaluate-ai-vendors-for-schools",
+      "topics": ["AI vendor evaluation", "K-12 procurement", "student privacy", "teacher oversight"]
+    },
+    {
+      "name": "Student AI Acceptable-Use Policy",
+      "path": "templates/student-ai-acceptable-use-policy.md",
+      "canonicalGuide": "https://honorlyai.com/student-ai-acceptable-use-policy",
+      "topics": ["student AI policy", "acceptable use", "academic integrity", "privacy"]
+    },
+    {
+      "name": "Classroom AI Use Levels",
+      "path": "templates/classroom-ai-use-levels.md",
+      "canonicalGuide": "https://honorlyai.com/ai-use-levels-for-schools",
+      "topics": ["assignment rules", "AI disclosure", "teacher control", "classroom AI"]
+    },
+    {
+      "name": "Parent and Family AI Notice",
+      "path": "templates/parent-family-ai-notice.md",
+      "canonicalGuide": "https://honorlyai.com/school-parent-notice",
+      "topics": ["family communication", "student privacy", "school AI notice"]
+    },
+    {
+      "name": "School District AI Pilot Plan",
+      "path": "templates/school-district-ai-pilot-plan.md",
+      "canonicalGuide": "https://honorlyai.com/school-district-ai-pilot-checklist",
+      "topics": ["district AI pilot", "implementation", "evaluation", "rollout"]
+    },
+    {
+      "name": "School AI Privacy Review Checklist",
+      "path": "templates/school-ai-privacy-review-checklist.md",
+      "canonicalGuide": "https://honorlyai.com/school-ai-privacy-checklist",
+      "topics": ["student data", "FERPA review", "COPPA review", "retention", "subprocessors"]
+    },
+    {
+      "name": "Teacher Classroom AI Guidelines",
+      "path": "templates/teacher-classroom-ai-guidelines.md",
+      "canonicalGuide": "https://honorlyai.com/ai-policy-for-teachers",
+      "topics": ["teachers", "classroom rules", "assignment boundaries", "oversight"]
+    },
+    {
+      "name": "AI Academic Integrity Policy",
+      "path": "templates/ai-academic-integrity-policy.md",
+      "canonicalGuide": "https://honorlyai.com/ai-academic-integrity-policy",
+      "topics": ["academic integrity", "AI disclosure", "assessment", "student authorship"]
+    },
+    {
+      "name": "AI Incident Response Plan",
+      "path": "templates/ai-incident-response-plan.md",
+      "canonicalGuide": "https://honorlyai.com/resources",
+      "topics": ["incident response", "privacy", "safety", "access control"]
+    },
+    {
+      "name": "AI Data Lifecycle Worksheet",
+      "path": "templates/ai-data-lifecycle-worksheet.md",
+      "canonicalGuide": "https://honorlyai.com/ferpa-ai-schools",
+      "topics": ["data inventory", "retention", "deletion", "access", "purpose limitation"]
+    }
+  ]
+}
