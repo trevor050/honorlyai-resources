@@ -81,6 +81,12 @@ Read the field note, [The future of K-12 AI is teacher-controlled](https://honor
 
 These materials are general educational resources, not legal advice, a compliance certification, or a substitute for district-specific review.
 
+## Archiving and citation
+
+Versioned releases of this toolkit are prepared for permanent archiving and citation through Zenodo. See [ZENODO.md](ZENODO.md) for the approved metadata, upload procedure, and release checklist.
+
+GitHub also reads [CITATION.cff](CITATION.cff) to generate citation formats from the repository metadata.
+
 ## License and attribution
 
 Except where otherwise noted, the original materials in this repository are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
