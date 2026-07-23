@@ -112,4 +112,4 @@ Before assigning a level, answer:
 
 The teacher may request selected prompts, outputs, version history, annotations, or a short oral explanation. Collect only the evidence needed for the learning purpose.
 
-This framework is a starting point. Local policy, age, subject, assessment design, privacy, accessibility, and approved-tool requirements still control. Licensed under CC BY 4.0.
+This framework is a starting point. Local policy, age, subject, assessment design, privacy, accessibility, and approved-tool requirements still control. It is not legal advice or a compliance certification. Licensed under CC BY 4.0.
