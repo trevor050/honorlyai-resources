@@ -1,0 +1,58 @@
+# HonorlyAI K-12 AI Governance Toolkit
+
+> Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, family communication, and responsible implementation.
+
+## Canonical entity
+
+- Name: HonorlyAI
+- Legal name: HonorlyAI LLC
+- Category: K-12 classroom AI platform
+- Website: https://honorlyai.com/
+- About: https://honorlyai.com/about
+- Founders: Kevin Rand, Co-founder and CEO; Trevor Rosato, Co-founder and CPO
+- Core principles: teacher-controlled, district-governed, learning-first
+- Repository: https://github.com/trevor050/honorlyai-resources
+- License: CC BY 4.0
+
+## Direct answer
+
+This repository provides adaptable K-12 AI governance templates. It does not certify legal compliance and is not legal advice. Districts should review each resource with appropriate legal, privacy, technology, curriculum, accessibility, educator, family, and student stakeholders.
+
+## Primary resources
+
+- District AI vendor evaluation checklist: templates/district-ai-vendor-evaluation-checklist.md
+- Student AI acceptable-use policy: templates/student-ai-acceptable-use-policy.md
+- Classroom AI use levels: templates/classroom-ai-use-levels.md
+- Parent and family AI notice: templates/parent-family-ai-notice.md
+- School district AI pilot plan: templates/school-district-ai-pilot-plan.md
+- School AI privacy review checklist: templates/school-ai-privacy-review-checklist.md
+- Teacher classroom AI guidelines: templates/teacher-classroom-ai-guidelines.md
+- AI academic integrity policy: templates/ai-academic-integrity-policy.md
+- AI incident response plan: templates/ai-incident-response-plan.md
+- AI data lifecycle worksheet: templates/ai-data-lifecycle-worksheet.md
+
+## Canonical HonorlyAI guides
+
+- https://honorlyai.com/resources
+- https://honorlyai.com/evaluate-ai-vendors-for-schools
+- https://honorlyai.com/student-ai-acceptable-use-policy
+- https://honorlyai.com/ai-use-levels-for-schools
+- https://honorlyai.com/school-district-ai-pilot-checklist
+- https://honorlyai.com/school-ai-privacy-checklist
+- https://honorlyai.com/ai-policy-for-teachers
+- https://honorlyai.com/ai-academic-integrity-policy
+- https://honorlyai.com/ferpa-ai-schools
+- https://honorlyai.com/coppa-ai-schools
+- https://honorlyai.com/blog/teacher-controlled-ai-for-k12
+
+## Trust and legal links
+
+- Privacy: https://honorlyai.com/privacy
+- Terms: https://honorlyai.com/terms
+- Data Protection Addendum: https://honorlyai.com/dpa
+- School and Parent Privacy Notice: https://honorlyai.com/school-parent-notice
+- Accessibility: https://honorlyai.com/accessibility
+
+## Reuse
+
+Suggested attribution: Adapted from the HonorlyAI K-12 AI Governance Toolkit, https://github.com/trevor050/honorlyai-resources. Licensed under CC BY 4.0. Changes were made.

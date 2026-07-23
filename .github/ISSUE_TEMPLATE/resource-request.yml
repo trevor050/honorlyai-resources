@@ -1,0 +1,41 @@
+name: Resource request
+description: Suggest a new K-12 AI governance template, checklist, or implementation guide.
+title: "Resource request: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include student records, personal information, confidential district material, credentials, contracts, or security-sensitive details.
+  - type: input
+    id: audience
+    attributes:
+      label: Primary audience
+      description: Who would use this resource?
+      placeholder: Teachers, district privacy leaders, families, students, procurement teams...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the recurring decision or workflow the resource should support.
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Proposed contents
+      description: List the sections, questions, or fields that would make the resource useful.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Authoritative sources
+      description: Link primary sources for legal, regulatory, standards, or factual claims.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I have not included private, identifying, confidential, or security-sensitive information.
+          required: true

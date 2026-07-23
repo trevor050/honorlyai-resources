@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: HonorlyAI product and district inquiries
+    url: https://honorlyai.com/contact
+    about: Contact HonorlyAI about product questions, district pilots, privacy review, or partnerships.
+  - name: Product security or privacy vulnerability
+    url: https://honorlyai.com/contact
+    about: Do not disclose vulnerabilities publicly. Label the submission Security report.
