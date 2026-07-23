@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the HonorlyAI K-12 AI Governance Toolkit when adapting or referencing these resources."
 title: "HonorlyAI K-12 AI Governance Toolkit"
-type: dataset
+type: generic
 authors:
   - family-names: Rand
     given-names: Kevin
@@ -21,4 +21,6 @@ keywords:
   - academic integrity
   - AI vendor evaluation
   - teacher-controlled AI
-abstract: "Free, editable templates and checklists for K-12 AI governance, classroom policy, privacy review, vendor evaluation, academic integrity, family communication, and responsible implementation."
+  - responsible AI
+  - education technology
+abstract: "The HonorlyAI K-12 AI Governance Toolkit is a collection of free, editable resources for school districts, educators, technology leaders, families, and students. It includes practical templates and checklists for AI vendor evaluation, student acceptable-use policies, classroom AI-use levels, parent communication, pilot planning, privacy review, academic integrity, incident response, data lifecycle management, and responsible implementation. The materials are designed to support local decision-making while preserving teacher oversight, student privacy, academic integrity, accessibility, and district control."
