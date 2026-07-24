@@ -76,6 +76,10 @@ EXPECTED_ARTICLE_PATHS = {
     "/blog/explain-classroom-ai-to-parents",
 }
 
+EXPECTED_RESOURCE_ARTICLE_PATHS = EXPECTED_ARTICLE_PATHS - {
+    "/blog/teacher-controlled-ai-for-k12"
+}
+
 MARKDOWN_LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 
 
@@ -160,7 +164,7 @@ def validate_resources_json(errors: list[str]) -> None:
             if isinstance(url, str):
                 linked_article_paths.add(url.removeprefix("https://honorlyai.com"))
 
-    missing_resource_links = EXPECTED_ARTICLE_PATHS - linked_article_paths
+    missing_resource_links = EXPECTED_RESOURCE_ARTICLE_PATHS - linked_article_paths
     if missing_resource_links:
         errors.append(
             "No resource metadata links to canonical articles: "
