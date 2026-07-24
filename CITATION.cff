@@ -8,7 +8,7 @@ authors:
   - family-names: Rosato
     given-names: Trevor
 publisher: HonorlyAI LLC
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-07-23
 url: "https://github.com/trevor050/honorlyai-resources"
 repository-code: "https://github.com/trevor050/honorlyai-resources"
@@ -20,5 +20,8 @@ keywords:
   - student privacy
   - academic integrity
   - AI vendor evaluation
+  - school AI pilots
+  - AI tutoring
+  - family communication
   - teacher-controlled AI
-abstract: "Free, editable templates and checklists for K-12 AI governance, classroom policy, privacy review, vendor evaluation, academic integrity, family communication, and responsible implementation."
+abstract: "Free, editable templates, checklists, scorecards, topic maps, and implementation worksheets for K-12 AI governance, classroom policy, privacy review, vendor evaluation, academic integrity, family communication, and responsible implementation."
