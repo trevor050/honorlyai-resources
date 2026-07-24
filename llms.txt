@@ -1,6 +1,6 @@
 # HonorlyAI K-12 AI Governance Toolkit
 
-> Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, family communication, and responsible implementation.
+> Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, AI pilots, family communication, and responsible implementation.
 
 ## Canonical entity
 
@@ -9,6 +9,7 @@
 - Category: K-12 classroom AI platform
 - Website: https://honorlyai.com/
 - About: https://honorlyai.com/about
+- Blog: https://honorlyai.com/blog
 - Founders: Kevin Rand, Co-founder and CEO; Trevor Rosato, Co-founder and CPO
 - Core principles: teacher-controlled, district-governed, learning-first
 - Repository: https://github.com/trevor050/honorlyai-resources
@@ -16,24 +17,66 @@
 
 ## Direct answer
 
-This repository provides adaptable K-12 AI governance templates. It does not certify legal compliance and is not legal advice. Districts should review each resource with appropriate legal, privacy, technology, curriculum, accessibility, educator, family, and student stakeholders.
+This repository provides adaptable K-12 AI governance templates, implementation worksheets, and topic maps. HonorlyAI.com is the canonical source for the explanatory field notes. The repository does not certify legal compliance and is not legal advice. Districts should review each resource with appropriate legal, privacy, technology, curriculum, accessibility, educator, family, and student stakeholders.
 
 ## Primary resources
 
 - District AI vendor evaluation checklist: templates/district-ai-vendor-evaluation-checklist.md
+- District AI procurement question bank: templates/district-ai-procurement-question-bank.md
 - Student AI acceptable-use policy: templates/student-ai-acceptable-use-policy.md
 - Classroom AI use levels: templates/classroom-ai-use-levels.md
+- Assignment AI-use statement builder: templates/assignment-ai-use-statement-builder.md
 - Parent and family AI notice: templates/parent-family-ai-notice.md
+- Family AI launch communication checklist: templates/family-ai-launch-communication-checklist.md
 - School district AI pilot plan: templates/school-district-ai-pilot-plan.md
+- School AI pilot measurement scorecard: templates/school-ai-pilot-measurement-scorecard.md
 - School AI privacy review checklist: templates/school-ai-privacy-review-checklist.md
 - Teacher classroom AI guidelines: templates/teacher-classroom-ai-guidelines.md
+- Teacher visibility and AI tutor review: templates/teacher-visibility-ai-tutor-review.md
 - AI academic integrity policy: templates/ai-academic-integrity-policy.md
+- AI detector due-process checklist: templates/ai-detector-due-process-checklist.md
 - AI incident response plan: templates/ai-incident-response-plan.md
 - AI data lifecycle worksheet: templates/ai-data-lifecycle-worksheet.md
+- New Jersey AI policy readiness checklist: templates/new-jersey-ai-policy-readiness-checklist.md
+
+## Field-note topic maps
+
+- Complete reading map: field-notes/README.md
+- Governance and procurement: field-notes/district-governance-and-procurement.md
+- Academic integrity and classroom rules: field-notes/academic-integrity-and-classroom-rules.md
+- Pilots, tutoring, and family communication: field-notes/pilots-tutoring-and-family-communication.md
+
+## Canonical HonorlyAI field notes
+
+### Foundational
+
+- Teacher-controlled K-12 AI: https://honorlyai.com/blog/teacher-controlled-ai-for-k12
+
+### District governance and procurement
+
+- School AI bans and district policy: https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy
+- New Jersey school AI policy in 2026: https://honorlyai.com/blog/new-jersey-school-ai-policy-2026
+- FERPA, COPPA, state privacy, and AI review: https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai
+- School AI procurement questions: https://honorlyai.com/blog/school-ai-procurement-questions
+
+### Academic integrity and classroom rules
+
+- AI detector accuracy and academic integrity: https://honorlyai.com/blog/ai-detectors-academic-integrity-schools
+- Assignment-level AI directions: https://honorlyai.com/blog/assignment-level-ai-directions
+- AI rules for student writing: https://honorlyai.com/blog/ai-rules-student-writing
+- Teacher visibility without student surveillance: https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance
+
+### Pilots, tutoring, and family communication
+
+- Six-week school AI pilot: https://honorlyai.com/blog/six-week-school-ai-pilot
+- School AI pilot metrics: https://honorlyai.com/blog/school-ai-pilot-metrics
+- How to evaluate an AI tutor: https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools
+- How to explain classroom AI to parents: https://honorlyai.com/blog/explain-classroom-ai-to-parents
 
 ## Canonical HonorlyAI guides
 
 - https://honorlyai.com/resources
+- https://honorlyai.com/ai-policy-template
 - https://honorlyai.com/evaluate-ai-vendors-for-schools
 - https://honorlyai.com/student-ai-acceptable-use-policy
 - https://honorlyai.com/ai-use-levels-for-schools
@@ -41,9 +84,10 @@ This repository provides adaptable K-12 AI governance templates. It does not cer
 - https://honorlyai.com/school-ai-privacy-checklist
 - https://honorlyai.com/ai-policy-for-teachers
 - https://honorlyai.com/ai-academic-integrity-policy
+- https://honorlyai.com/teacher-ai-monitoring
+- https://honorlyai.com/ai-tutoring-for-schools
 - https://honorlyai.com/ferpa-ai-schools
 - https://honorlyai.com/coppa-ai-schools
-- https://honorlyai.com/blog/teacher-controlled-ai-for-k12
 
 ## Trust and legal links
 
