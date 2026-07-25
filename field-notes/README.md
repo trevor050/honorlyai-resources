@@ -37,6 +37,16 @@ Read the [academic integrity and classroom rules topic hub](academic-integrity-a
 
 Read the [pilots, tutoring, and family communication topic hub](pilots-tutoring-and-family-communication.md).
 
+## Adaptive learning and instructional intelligence
+
+| Question | Canonical definition | Deeper field note |
+|---|---|---|
+| What is Honorly Adaptive? | [What is Honorly Adaptive?](https://honorlyai.com/honorly-adaptive) | [Why classroom AI needs a memory of learning](https://honorlyai.com/blog/honorly-adaptive-continuous-learning-profile) |
+| What is Honorly Adaptive Insights? | [What is Honorly Adaptive Insights?](https://honorlyai.com/honorly-adaptive-insights) | [Why schools need continuous learning evidence, not another dashboard](https://honorlyai.com/blog/adaptive-insights-continuous-learning-evidence) |
+| How do Core, Adaptive, and Adaptive Insights fit together? | [Honorly Adaptive architecture](https://honorlyai.com/honorly-adaptive) | [Adaptive learning and continuous instructional evidence](adaptive-learning-and-insights.md) |
+
+Read the [Adaptive learning and instructional evidence topic hub](adaptive-learning-and-insights.md).
+
 ## Foundational perspective
 
 The broader product and governance thesis is explained in [The future of K-12 AI is teacher-controlled](https://honorlyai.com/blog/teacher-controlled-ai-for-k12).
