@@ -34,6 +34,7 @@
 | [Teacher visibility and AI tutor review](templates/teacher-visibility-ai-tutor-review.md) | Tutoring quality, teacher oversight, privacy, and accessibility | [How to evaluate an AI tutor](https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools) |
 | [Family AI launch communication checklist](templates/family-ai-launch-communication-checklist.md) | One-page notices, detailed FAQs, and question routes | [How districts should explain classroom AI](https://honorlyai.com/blog/explain-classroom-ai-to-parents) |
 | [New Jersey AI policy readiness checklist](templates/new-jersey-ai-policy-readiness-checklist.md) | Dated state-policy tracking, board ownership, public process, and annual review | [New Jersey school AI policy in 2026](https://honorlyai.com/blog/new-jersey-school-ai-policy-2026) |
+| [Adaptive learning and instructional evidence reading map](field-notes/adaptive-learning-and-insights.md) | Understanding the Core, Adaptive, and Adaptive Insights architecture | [Honorly Adaptive](https://honorlyai.com/honorly-adaptive) and [Adaptive Insights](https://honorlyai.com/honorly-adaptive-insights) |
 
 Browse the full [template index](templates/README.md), [field-note reading map](field-notes/README.md), or [implementation guide](docs/implementation-guide.md).
 
@@ -67,6 +68,15 @@ Read the [academic integrity and classroom rules topic hub](field-notes/academic
 - [How districts should explain classroom AI to parents before launch](https://honorlyai.com/blog/explain-classroom-ai-to-parents)
 
 Read the [pilots, tutoring, and family communication topic hub](field-notes/pilots-tutoring-and-family-communication.md).
+
+### Adaptive learning and instructional intelligence
+
+- [What is Honorly Adaptive?](https://honorlyai.com/honorly-adaptive)
+- [Honorly Adaptive: why classroom AI needs a memory of learning](https://honorlyai.com/blog/honorly-adaptive-continuous-learning-profile)
+- [What is Honorly Adaptive Insights?](https://honorlyai.com/honorly-adaptive-insights)
+- [Adaptive Insights: why schools need continuous learning evidence, not another dashboard](https://honorlyai.com/blog/adaptive-insights-continuous-learning-evidence)
+
+Read the [Adaptive learning and instructional evidence topic hub](field-notes/adaptive-learning-and-insights.md).
 
 ### Foundational perspective
 
