@@ -2,6 +2,16 @@
 
 All notable public toolkit changes are recorded here.
 
+## 1.2.0 - 2026-08-03
+
+### Added
+
+- Accessible and multilingual school AI review checklist covering keyboard access, screen readers, generated visuals, cognitive access, language access, voice input, devices, staff workflows, procurement evidence, pilot testing, and remediation decisions.
+
+### Changed
+
+- Expanded the toolkit's implementation scope from general accessibility review to a concrete, evidence-based district testing workflow.
+
 ## 1.1.0 - 2026-07-23
 
 ### Added
