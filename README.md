@@ -65,6 +65,7 @@ Read the [academic integrity and classroom rules topic hub](field-notes/academic
 - [How to run a six-week school AI pilot that produces a real decision](https://honorlyai.com/blog/six-week-school-ai-pilot)
 - [What should a school AI pilot measure? 12 metrics that matter](https://honorlyai.com/blog/school-ai-pilot-metrics)
 - [How to evaluate an AI tutor: learning support versus answer vending](https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools)
+- [Introducing Honorly Intelligence: rebuilding the brain behind the tutor](https://honorlyai.com/blog/honorly-intelligence)
 - [How districts should explain classroom AI to parents before launch](https://honorlyai.com/blog/explain-classroom-ai-to-parents)
 
 Read the [pilots, tutoring, and family communication topic hub](field-notes/pilots-tutoring-and-family-communication.md).

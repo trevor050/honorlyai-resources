@@ -51,6 +51,7 @@ This repository provides adaptable K-12 AI governance templates, implementation 
 ### Foundational
 
 - Teacher-controlled K-12 AI: https://honorlyai.com/blog/teacher-controlled-ai-for-k12
+- How the Honorly tutor is built and governed: https://honorlyai.com/blog/honorly-intelligence
 
 ### District governance and procurement
 
