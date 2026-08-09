@@ -74,10 +74,12 @@ EXPECTED_ARTICLE_PATHS = {
     "/blog/school-ai-pilot-metrics",
     "/blog/how-to-evaluate-ai-tutor-schools",
     "/blog/explain-classroom-ai-to-parents",
+    "/blog/honorly-intelligence",
 }
 
 EXPECTED_RESOURCE_ARTICLE_PATHS = EXPECTED_ARTICLE_PATHS - {
-    "/blog/teacher-controlled-ai-for-k12"
+    "/blog/teacher-controlled-ai-for-k12",
+    "/blog/honorly-intelligence",
 }
 
 MARKDOWN_LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")

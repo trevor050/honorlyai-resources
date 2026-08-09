@@ -23,6 +23,7 @@ Read the [governance and procurement topic hub](district-governance-and-procurem
 | How should teachers state allowed AI use? | [How to write assignment-level AI directions students can actually follow](https://honorlyai.com/blog/assignment-level-ai-directions) | [Assignment AI-use statement builder](../templates/assignment-ai-use-statement-builder.md) |
 | How should rules change across brainstorming, drafting, feedback, and editing? | [AI in student writing: rules for brainstorming, drafting, feedback, and editing](https://honorlyai.com/blog/ai-rules-student-writing) | [Assignment AI-use statement builder](../templates/assignment-ai-use-statement-builder.md) |
 | How can teachers see useful AI activity without reading everything? | [Teacher visibility without student surveillance: where the line belongs](https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance) | [Teacher visibility and AI tutor review worksheet](../templates/teacher-visibility-ai-tutor-review.md) |
+| What is actually running behind a classroom AI tutor, and what enforces the rules? | [Introducing Honorly Intelligence: rebuilding the brain behind the tutor](https://honorlyai.com/blog/honorly-intelligence) | [Teacher visibility and AI tutor review worksheet](../templates/teacher-visibility-ai-tutor-review.md) |
 
 Read the [academic integrity and classroom rules topic hub](academic-integrity-and-classroom-rules.md).
 

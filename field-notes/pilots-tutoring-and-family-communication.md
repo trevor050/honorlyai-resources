@@ -40,6 +40,8 @@ A system is not an educational tutor merely because it gives a correct response.
 
 Read [How to evaluate an AI tutor: learning support versus answer vending](https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools) for an educator-led evaluation rubric.
 
+A rubric describes the behavior a district wants. It does not explain what has to be true inside a product for that behavior to hold under pressure. [Introducing Honorly Intelligence: rebuilding the brain behind the tutor](https://honorlyai.com/blog/honorly-intelligence) is a worked example of one vendor answering that question in public: which decisions are left to a language model, which are enforced deterministically by the surrounding application, and how the two are separated so a persuasive student cannot talk the system out of a classroom rule. Districts can ask any vendor for the same account.
+
 Use the [Teacher visibility and AI tutor review worksheet](../templates/teacher-visibility-ai-tutor-review.md) to test whether the service:
 
 - asks what the student tried;

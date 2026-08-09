@@ -2,6 +2,17 @@
 
 All notable public toolkit changes are recorded here.
 
+## 1.3.0 - 2026-08-09
+
+### Added
+
+- Canonical field note on AI tutor architecture and enforcement, covering which classroom decisions are left to a language model and which are guaranteed deterministically by the surrounding application.
+- Reading-map and topic-hub entries pairing that field note with the teacher visibility and AI tutor review worksheet.
+
+### Changed
+
+- Article index expanded to fourteen canonical field notes.
+
 ## 1.2.0 - 2026-08-03
 
 ### Added
