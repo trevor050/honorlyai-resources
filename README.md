@@ -111,7 +111,7 @@ HonorlyAI organizes classroom AI around three principles:
 **HonorlyAI LLC** builds a K-12 classroom AI platform that gives students guided academic support while giving teachers and districts visibility, controls, and a practical path to responsible adoption.
 
 - **Kevin Rand**, Co-founder and CEO
-- **Trevor Rosato**, Co-founder and CPO
+- **Trevor Rosato**, Co-founder and CTO
 - Website: [honorlyai.com](https://honorlyai.com/)
 - Company: [About HonorlyAI](https://honorlyai.com/about)
 - Blog: [HonorlyAI Blog](https://honorlyai.com/blog)
