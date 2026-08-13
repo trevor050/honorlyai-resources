@@ -2,6 +2,20 @@
 
 All notable public toolkit changes are recorded here.
 
+## 1.4.0 - 2026-08-10
+
+### Added
+
+- AI subprocessor change review checklist for district privacy, security, procurement, and technology teams, covering baseline capture, material-change classification, AI/model-provider questions, FERPA-related review, contract and DPA checks, security dependencies, accessibility impact, communication, and decision logging.
+- Canonical trust links for HonorlyAI's public subprocessor list and accessibility conformance report.
+- Validation that every editable Markdown template is represented in `resources.json`, preventing useful resources from being merged but left undiscoverable.
+
+### Changed
+
+- Fully indexed the accessible and multilingual school AI review checklist in the root README, template index, `resources.json`, and `llms.txt`.
+- Updated primary-source notes for FERPA access controls and NIST third-party AI and supply-chain risk practices.
+- Expanded the governance framework to treat post-procurement vendor and subprocessor changes as an explicit district review trigger.
+
 ## 1.3.0 - 2026-08-09
 
 ### Added

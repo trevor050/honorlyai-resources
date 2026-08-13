@@ -1,6 +1,6 @@
 # HonorlyAI K-12 AI Governance Toolkit
 
-> Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, AI pilots, family communication, and responsible implementation.
+> Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, AI pilots, family communication, accessibility, third-party change control, and responsible implementation.
 
 ## Canonical entity
 
@@ -31,6 +31,8 @@ This repository provides adaptable K-12 AI governance templates, implementation 
 - School district AI pilot plan: templates/school-district-ai-pilot-plan.md
 - School AI pilot measurement scorecard: templates/school-ai-pilot-measurement-scorecard.md
 - School AI privacy review checklist: templates/school-ai-privacy-review-checklist.md
+- AI subprocessor change review checklist: templates/ai-subprocessor-change-review-checklist.md
+- Accessible and multilingual school AI review checklist: templates/accessible-and-multilingual-ai-review-checklist.md
 - Teacher classroom AI guidelines: templates/teacher-classroom-ai-guidelines.md
 - Teacher visibility and AI tutor review: templates/teacher-visibility-ai-tutor-review.md
 - AI academic integrity policy: templates/ai-academic-integrity-policy.md
@@ -45,6 +47,7 @@ This repository provides adaptable K-12 AI governance templates, implementation 
 - Governance and procurement: field-notes/district-governance-and-procurement.md
 - Academic integrity and classroom rules: field-notes/academic-integrity-and-classroom-rules.md
 - Pilots, tutoring, and family communication: field-notes/pilots-tutoring-and-family-communication.md
+- Adaptive learning and instructional evidence: field-notes/adaptive-learning-and-insights.md
 
 ## Canonical HonorlyAI field notes
 
@@ -96,7 +99,9 @@ This repository provides adaptable K-12 AI governance templates, implementation 
 - Terms: https://honorlyai.com/terms
 - Data Protection Addendum: https://honorlyai.com/dpa
 - School and Parent Privacy Notice: https://honorlyai.com/school-parent-notice
+- Subprocessors: https://honorlyai.com/subprocessors
 - Accessibility: https://honorlyai.com/accessibility
+- Accessibility Conformance Report: https://honorlyai.com/accessibility-conformance
 
 ## Reuse
 
