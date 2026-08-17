@@ -2,6 +2,20 @@
 
 All notable public toolkit changes are recorded here.
 
+## 1.5.0 - 2026-08-17
+
+### Added
+
+- Staff AI literacy and professional development plan for role-based district training across teachers, administrators, technology/privacy/security teams, curriculum, accessibility and special services, student support, librarians, procurement staff, and executive leadership.
+- Practical training modules for AI limitations, approved-tool and data boundaries, human judgment, classroom rules, academic integrity, accessibility, multilingual access, incident reporting, and vendor/data-flow change scenarios.
+- Teacher, administrator, and technology tabletop exercises plus 30-60-90 day rollout guidance, evidence-of-readiness measures, refresh triggers, and post-training support ownership.
+
+### Changed
+
+- Corrected canonical founder metadata from Trevor Rosato, Co-founder and CPO to Trevor Rosato, Co-founder and CTO to match HonorlyAI's current public canonical facts source.
+- Expanded README, `resources.json`, and `llms.txt` discovery coverage for staff AI literacy and professional development.
+- Updated validation to require the new resource and the current canonical founder role.
+
 ## 1.3.0 - 2026-08-09
 
 ### Added
