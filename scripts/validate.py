@@ -44,6 +44,7 @@ REQUIRED_FILES = [
     "templates/school-ai-privacy-review-checklist.md",
     "templates/teacher-classroom-ai-guidelines.md",
     "templates/teacher-visibility-ai-tutor-review.md",
+    "templates/staff-ai-literacy-professional-development-plan.md",
     "templates/ai-academic-integrity-policy.md",
     "templates/ai-detector-due-process-checklist.md",
     "templates/ai-incident-response-plan.md",
@@ -56,7 +57,7 @@ CANONICAL_FACTS = [
     "Kevin Rand",
     "Co-founder and CEO",
     "Trevor Rosato",
-    "Co-founder and CPO",
+    "Co-founder and CTO",
     "https://honorlyai.com/",
 ]
 
@@ -113,6 +114,14 @@ def validate_resources_json(errors: list[str]) -> None:
     if data.get("license") != "CC-BY-4.0":
         errors.append("resources.json must declare CC-BY-4.0")
 
+    publisher = data.get("publisher")
+    if not isinstance(publisher, dict):
+        errors.append("resources.json must include publisher metadata")
+    else:
+        founders = publisher.get("founders", [])
+        if {f.get("role") for f in founders if isinstance(f, dict)} != {"Co-founder and CEO", "Co-founder and CTO"}:
+            errors.append("resources.json publisher founder roles do not match canonical entity facts")
+
     article_index = data.get("articleIndex")
     if not isinstance(article_index, list):
         errors.append("resources.json must include an articleIndex array")
@@ -166,6 +175,9 @@ def validate_resources_json(errors: list[str]) -> None:
             if isinstance(url, str):
                 linked_article_paths.add(url.removeprefix("https://honorlyai.com"))
 
+    if "templates/staff-ai-literacy-professional-development-plan.md" not in seen_paths:
+        errors.append("Staff AI literacy professional development plan is missing from resources.json")
+
     missing_resource_links = EXPECTED_RESOURCE_ARTICLE_PATHS - linked_article_paths
     if missing_resource_links:
         errors.append(
@@ -200,6 +212,10 @@ def validate_entity_consistency(errors: list[str]) -> None:
     for fact in CANONICAL_FACTS:
         if fact not in combined:
             errors.append(f"Canonical entity fact missing from README/llms.txt: {fact}")
+
+    stale_role = "Trevor Rosato, Co-founder and CPO"
+    if stale_role in combined:
+        errors.append(f"Stale canonical entity role remains in README/llms.txt: {stale_role}")
 
     for path in EXPECTED_ARTICLE_PATHS:
         canonical = f"https://honorlyai.com{path}"
