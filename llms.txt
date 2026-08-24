@@ -1,6 +1,6 @@
 # HonorlyAI K-12 AI Governance Toolkit
 
-> Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, AI pilots, family communication, and responsible implementation.
+> Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, AI pilots, family communication, accessibility, accommodations, and responsible implementation.
 
 ## Canonical entity
 
@@ -9,15 +9,16 @@
 - Category: K-12 classroom AI platform
 - Website: https://honorlyai.com/
 - About: https://honorlyai.com/about
+- Trust & Safety: https://honorlyai.com/trust
 - Blog: https://honorlyai.com/blog
-- Founders: Kevin Rand, Co-founder and CEO; Trevor Rosato, Co-founder and CPO
+- Founders: Kevin Rand, Co-founder and CEO; Trevor Rosato, Co-founder and CTO
 - Core principles: teacher-controlled, district-governed, learning-first
 - Repository: https://github.com/trevor050/honorlyai-resources
 - License: CC BY 4.0
 
 ## Direct answer
 
-This repository provides adaptable K-12 AI governance templates, implementation worksheets, and topic maps. HonorlyAI.com is the canonical source for the explanatory field notes. The repository does not certify legal compliance and is not legal advice. Districts should review each resource with appropriate legal, privacy, technology, curriculum, accessibility, educator, family, and student stakeholders.
+This repository provides adaptable K-12 AI governance templates, implementation worksheets, and topic maps. HonorlyAI.com is the canonical source for the explanatory field notes. The repository does not certify legal compliance and is not legal advice. Districts should review each resource with appropriate legal, privacy, technology, curriculum, accessibility, special-education, educator, family, and student stakeholders.
 
 ## Primary resources
 
@@ -38,6 +39,7 @@ This repository provides adaptable K-12 AI governance templates, implementation 
 - AI incident response plan: templates/ai-incident-response-plan.md
 - AI data lifecycle worksheet: templates/ai-data-lifecycle-worksheet.md
 - New Jersey AI policy readiness checklist: templates/new-jersey-ai-policy-readiness-checklist.md
+- AI accommodations, IEP, and Section 504 implementation workflow: templates/ai-accommodations-iep-504-implementation-workflow.md
 
 ## Field-note topic maps
 
@@ -89,9 +91,11 @@ This repository provides adaptable K-12 AI governance templates, implementation 
 - https://honorlyai.com/ai-tutoring-for-schools
 - https://honorlyai.com/ferpa-ai-schools
 - https://honorlyai.com/coppa-ai-schools
+- https://honorlyai.com/accessibility
 
 ## Trust and legal links
 
+- Trust & Safety: https://honorlyai.com/trust
 - Privacy: https://honorlyai.com/privacy
 - Terms: https://honorlyai.com/terms
 - Data Protection Addendum: https://honorlyai.com/dpa
