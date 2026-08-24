@@ -11,6 +11,13 @@ Each resource is written in Markdown so a district can copy, revise, compare, an
 - [New Jersey school district AI policy readiness checklist](new-jersey-ai-policy-readiness-checklist.md)
 - [AI incident response plan](ai-incident-response-plan.md)
 
+## Accessibility, accommodations, and student supports
+
+- [AI accommodations, IEP, and Section 504 implementation workflow](ai-accommodations-iep-504-implementation-workflow.md)
+- [Accessible and multilingual AI review checklist](accessible-and-multilingual-ai-review-checklist.md)
+
+These resources focus on implementing authorized supports and testing actual student workflows. They do not turn AI output into a diagnosis, eligibility determination, placement decision, accommodation decision, or substitute for district IEP/Section 504 processes.
+
 ## Pilots and implementation evidence
 
 - [School district AI pilot plan](school-district-ai-pilot-plan.md)
