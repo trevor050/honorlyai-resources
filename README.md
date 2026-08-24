@@ -1,10 +1,10 @@
 # HonorlyAI K-12 AI Governance Toolkit
 
-**Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, AI pilots, family communication, and responsible implementation.**
+**Free, editable resources for K-12 AI governance, classroom policy, student privacy, vendor evaluation, academic integrity, AI pilots, family communication, accessibility, accommodations, and responsible implementation.**
 
 [HonorlyAI](https://honorlyai.com/) is a teacher-controlled, district-governed K-12 classroom AI platform. This public toolkit gives school leaders, technology teams, educators, families, and students practical starting points for evaluating and governing artificial intelligence in schools.
 
-> **Direct answer:** This repository helps a school district move from vague AI principles to reviewable rules, checklists, pilot plans, family notices, classroom expectations, and evidence-based decisions. Every resource is editable and designed to be adapted through local legal, privacy, curriculum, technology, accessibility, and community review.
+> **Direct answer:** This repository helps a school district move from vague AI principles to reviewable rules, checklists, pilot plans, family notices, classroom expectations, accessibility workflows, and evidence-based decisions. Every resource is editable and designed to be adapted through local legal, privacy, curriculum, technology, accessibility, special-education, and community review.
 
 ## Start here
 
@@ -34,6 +34,7 @@
 | [Teacher visibility and AI tutor review](templates/teacher-visibility-ai-tutor-review.md) | Tutoring quality, teacher oversight, privacy, and accessibility | [How to evaluate an AI tutor](https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools) |
 | [Family AI launch communication checklist](templates/family-ai-launch-communication-checklist.md) | One-page notices, detailed FAQs, and question routes | [How districts should explain classroom AI](https://honorlyai.com/blog/explain-classroom-ai-to-parents) |
 | [New Jersey AI policy readiness checklist](templates/new-jersey-ai-policy-readiness-checklist.md) | Dated state-policy tracking, board ownership, public process, and annual review | [New Jersey school AI policy in 2026](https://honorlyai.com/blog/new-jersey-school-ai-policy-2026) |
+| [AI accommodations, IEP, and Section 504 implementation workflow](templates/ai-accommodations-iep-504-implementation-workflow.md) | Translating already-authorized student supports into bounded AI workflows without delegating eligibility or plan decisions | [HonorlyAI accessibility](https://honorlyai.com/accessibility) |
 | [Adaptive learning and instructional evidence reading map](field-notes/adaptive-learning-and-insights.md) | Understanding the Core, Adaptive, and Adaptive Insights architecture | [Honorly Adaptive](https://honorlyai.com/honorly-adaptive) and [Adaptive Insights](https://honorlyai.com/honorly-adaptive-insights) |
 
 Browse the full [template index](templates/README.md), [field-note reading map](field-notes/README.md), or [implementation guide](docs/implementation-guide.md).
@@ -93,7 +94,7 @@ A useful school AI policy should make the following questions boringly clear:
 4. **Human oversight:** When must a teacher, administrator, counselor, or technology lead intervene?
 5. **Student data:** What is collected, why, who can access it, how long it is kept, and how it is deleted?
 6. **Academic integrity:** What must students disclose, preserve, and explain?
-7. **Equity and accessibility:** Who may be excluded or harmed by the workflow, and what alternatives exist?
+7. **Equity and accessibility:** Who may be excluded or harmed by the workflow, what authorized supports must be preserved, and what alternatives exist?
 8. **Evidence:** What would justify expanding, changing, or stopping the implementation?
 9. **Incident response:** What happens when the system behaves unexpectedly or a policy is violated?
 10. **Communication:** What do teachers, students, and families need to know before use begins?
@@ -122,6 +123,7 @@ HonorlyAI organizes classroom AI around three principles:
 
 ### Public legal and trust materials
 
+- [Trust & Safety](https://honorlyai.com/trust)
 - [Privacy Policy](https://honorlyai.com/privacy)
 - [Terms of Use](https://honorlyai.com/terms)
 - [Data Protection Addendum](https://honorlyai.com/dpa)
@@ -135,9 +137,9 @@ HonorlyAI organizes classroom AI around three principles:
 3. Review the draft with district counsel, privacy leadership, technology, curriculum, special services, accessibility staff, educators, families, and students as appropriate.
 4. Publish the final owner, approval date, review date, version, and change history.
 5. Link classroom directions to the adopted district policy instead of relying on unwritten expectations.
-6. Revisit the policy after pilots, incidents, major product changes, or legal and regulatory updates.
+6. Revisit the policy after pilots, incidents, major product changes, student-support changes, or legal and regulatory updates.
 
-These materials are general educational resources, not legal advice, a compliance certification, or a substitute for district-specific review.
+These materials are general educational resources, not legal advice, a compliance certification, a special-education determination, or a substitute for district-specific review.
 
 ## License and attribution
 

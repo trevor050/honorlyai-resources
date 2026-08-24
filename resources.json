@@ -1,7 +1,7 @@
 {
   "name": "HonorlyAI K-12 AI Governance Toolkit",
-  "version": "1.3.0",
-  "dateModified": "2026-08-09",
+  "version": "1.6.0",
+  "dateModified": "2026-08-24",
   "license": "CC-BY-4.0",
   "repository": "https://github.com/trevor050/honorlyai-resources",
   "publisher": {
@@ -11,251 +11,44 @@
     "category": "K-12 classroom AI platform",
     "founders": [
       { "name": "Kevin Rand", "role": "Co-founder and CEO" },
-      { "name": "Trevor Rosato", "role": "Co-founder and CPO" }
+      { "name": "Trevor Rosato", "role": "Co-founder and CTO" }
     ]
   },
   "fieldNoteIndex": "field-notes/README.md",
   "articleIndex": [
-    {
-      "name": "The future of K-12 AI is teacher-controlled",
-      "url": "https://honorlyai.com/blog/teacher-controlled-ai-for-k12",
-      "topics": ["teacher-controlled AI", "district governance", "classroom AI"]
-    },
-    {
-      "name": "AI bans are not an AI policy",
-      "url": "https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy",
-      "topics": ["school AI bans", "district AI policy", "governance"]
-    },
-    {
-      "name": "What New Jersey school districts should prepare for on AI policy in 2026",
-      "url": "https://honorlyai.com/blog/new-jersey-school-ai-policy-2026",
-      "topics": ["New Jersey", "school board policy", "state AI policy"]
-    },
-    {
-      "name": "FERPA, COPPA, and state privacy laws: who reviews what when schools buy AI?",
-      "url": "https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai",
-      "topics": ["FERPA", "COPPA", "state student privacy", "vendor review"]
-    },
-    {
-      "name": "The school AI procurement questions vendors hope you do not skip",
-      "url": "https://honorlyai.com/blog/school-ai-procurement-questions",
-      "topics": ["AI procurement", "vendor evaluation", "contracts", "exit"]
-    },
-    {
-      "name": "Why AI detectors are the wrong foundation for academic integrity",
-      "url": "https://honorlyai.com/blog/ai-detectors-academic-integrity-schools",
-      "topics": ["AI detectors", "academic integrity", "due process", "false positives"]
-    },
-    {
-      "name": "How to write assignment-level AI directions students can actually follow",
-      "url": "https://honorlyai.com/blog/assignment-level-ai-directions",
-      "topics": ["assignment rules", "AI disclosure", "teacher directions"]
-    },
-    {
-      "name": "AI in student writing: rules for brainstorming, drafting, feedback, and editing",
-      "url": "https://honorlyai.com/blog/ai-rules-student-writing",
-      "topics": ["student writing", "brainstorming", "drafting", "feedback", "editing"]
-    },
-    {
-      "name": "Teacher visibility without student surveillance: where the line belongs",
-      "url": "https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance",
-      "topics": ["teacher visibility", "student privacy", "monitoring", "surveillance"]
-    },
-    {
-      "name": "How to run a six-week school AI pilot that produces a real decision",
-      "url": "https://honorlyai.com/blog/six-week-school-ai-pilot",
-      "topics": ["district AI pilot", "implementation", "six-week pilot"]
-    },
-    {
-      "name": "What should a school AI pilot measure? 12 metrics that matter",
-      "url": "https://honorlyai.com/blog/school-ai-pilot-metrics",
-      "topics": ["AI pilot metrics", "learning evidence", "teacher workload", "trust"]
-    },
-    {
-      "name": "How to evaluate an AI tutor: learning support versus answer vending",
-      "url": "https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools",
-      "topics": ["AI tutoring", "scaffolding", "teacher oversight", "learning"]
-    },
-    {
-      "name": "How districts should explain classroom AI to parents before launch",
-      "url": "https://honorlyai.com/blog/explain-classroom-ai-to-parents",
-      "topics": ["family communication", "parent notice", "student data", "AI launch"]
-    },
-    {
-      "name": "Introducing Honorly Intelligence: rebuilding the brain behind the tutor",
-      "url": "https://honorlyai.com/blog/honorly-intelligence",
-      "topics": ["AI tutor architecture", "teacher visibility", "academic integrity", "classroom AI safety"]
-    }
+    {"name":"The future of K-12 AI is teacher-controlled","url":"https://honorlyai.com/blog/teacher-controlled-ai-for-k12","topics":["teacher-controlled AI","district governance","classroom AI"]},
+    {"name":"AI bans are not an AI policy","url":"https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy","topics":["school AI bans","district AI policy","governance"]},
+    {"name":"What New Jersey school districts should prepare for on AI policy in 2026","url":"https://honorlyai.com/blog/new-jersey-school-ai-policy-2026","topics":["New Jersey","school board policy","state AI policy"]},
+    {"name":"FERPA, COPPA, and state privacy laws: who reviews what when schools buy AI?","url":"https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai","topics":["FERPA","COPPA","state student privacy","vendor review"]},
+    {"name":"The school AI procurement questions vendors hope you do not skip","url":"https://honorlyai.com/blog/school-ai-procurement-questions","topics":["AI procurement","vendor evaluation","contracts","exit"]},
+    {"name":"Why AI detectors are the wrong foundation for academic integrity","url":"https://honorlyai.com/blog/ai-detectors-academic-integrity-schools","topics":["AI detectors","academic integrity","due process","false positives"]},
+    {"name":"How to write assignment-level AI directions students can actually follow","url":"https://honorlyai.com/blog/assignment-level-ai-directions","topics":["assignment rules","AI disclosure","teacher directions"]},
+    {"name":"AI in student writing: rules for brainstorming, drafting, feedback, and editing","url":"https://honorlyai.com/blog/ai-rules-student-writing","topics":["student writing","brainstorming","drafting","feedback","editing"]},
+    {"name":"Teacher visibility without student surveillance: where the line belongs","url":"https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance","topics":["teacher visibility","student privacy","monitoring","surveillance"]},
+    {"name":"How to run a six-week school AI pilot that produces a real decision","url":"https://honorlyai.com/blog/six-week-school-ai-pilot","topics":["district AI pilot","implementation","six-week pilot"]},
+    {"name":"What should a school AI pilot measure? 12 metrics that matter","url":"https://honorlyai.com/blog/school-ai-pilot-metrics","topics":["AI pilot metrics","learning evidence","teacher workload","trust"]},
+    {"name":"How to evaluate an AI tutor: learning support versus answer vending","url":"https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools","topics":["AI tutoring","scaffolding","teacher oversight","learning"]},
+    {"name":"How districts should explain classroom AI to parents before launch","url":"https://honorlyai.com/blog/explain-classroom-ai-to-parents","topics":["family communication","parent notice","student data","AI launch"]},
+    {"name":"Introducing Honorly Intelligence: rebuilding the brain behind the tutor","url":"https://honorlyai.com/blog/honorly-intelligence","topics":["AI tutor architecture","teacher visibility","academic integrity","classroom AI safety"]}
   ],
   "resources": [
-    {
-      "name": "District AI Vendor Evaluation Checklist",
-      "path": "templates/district-ai-vendor-evaluation-checklist.md",
-      "canonicalGuide": "https://honorlyai.com/evaluate-ai-vendors-for-schools",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai",
-        "https://honorlyai.com/blog/school-ai-procurement-questions"
-      ],
-      "topics": ["AI vendor evaluation", "K-12 procurement", "student privacy", "teacher oversight"]
-    },
-    {
-      "name": "District AI Procurement Question Bank",
-      "path": "templates/district-ai-procurement-question-bank.md",
-      "canonicalGuide": "https://honorlyai.com/evaluate-ai-vendors-for-schools",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai",
-        "https://honorlyai.com/blog/school-ai-procurement-questions"
-      ],
-      "topics": ["vendor response", "data flow", "model providers", "contract exit"]
-    },
-    {
-      "name": "Student AI Acceptable-Use Policy",
-      "path": "templates/student-ai-acceptable-use-policy.md",
-      "canonicalGuide": "https://honorlyai.com/student-ai-acceptable-use-policy",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy",
-        "https://honorlyai.com/blog/assignment-level-ai-directions"
-      ],
-      "topics": ["student AI policy", "acceptable use", "academic integrity", "privacy"]
-    },
-    {
-      "name": "Classroom AI Use Levels",
-      "path": "templates/classroom-ai-use-levels.md",
-      "canonicalGuide": "https://honorlyai.com/ai-use-levels-for-schools",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/assignment-level-ai-directions",
-        "https://honorlyai.com/blog/ai-rules-student-writing"
-      ],
-      "topics": ["assignment rules", "AI disclosure", "teacher control", "classroom AI"]
-    },
-    {
-      "name": "Assignment AI-Use Statement Builder",
-      "path": "templates/assignment-ai-use-statement-builder.md",
-      "canonicalGuide": "https://honorlyai.com/ai-use-levels-for-schools",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/assignment-level-ai-directions",
-        "https://honorlyai.com/blog/ai-rules-student-writing"
-      ],
-      "topics": ["assignment statement", "AI use levels", "disclosure", "student writing"]
-    },
-    {
-      "name": "Parent and Family AI Notice",
-      "path": "templates/parent-family-ai-notice.md",
-      "canonicalGuide": "https://honorlyai.com/school-parent-notice",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/explain-classroom-ai-to-parents"
-      ],
-      "topics": ["family communication", "student privacy", "school AI notice"]
-    },
-    {
-      "name": "Family AI Launch Communication Checklist",
-      "path": "templates/family-ai-launch-communication-checklist.md",
-      "canonicalGuide": "https://honorlyai.com/school-parent-notice",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/explain-classroom-ai-to-parents",
-        "https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy"
-      ],
-      "topics": ["parent notice", "family FAQ", "teacher visibility", "AI launch"]
-    },
-    {
-      "name": "School District AI Pilot Plan",
-      "path": "templates/school-district-ai-pilot-plan.md",
-      "canonicalGuide": "https://honorlyai.com/school-district-ai-pilot-checklist",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/six-week-school-ai-pilot",
-        "https://honorlyai.com/blog/school-ai-pilot-metrics"
-      ],
-      "topics": ["district AI pilot", "implementation", "evaluation", "rollout"]
-    },
-    {
-      "name": "School AI Pilot Measurement Scorecard",
-      "path": "templates/school-ai-pilot-measurement-scorecard.md",
-      "canonicalGuide": "https://honorlyai.com/school-district-ai-pilot-checklist",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/six-week-school-ai-pilot",
-        "https://honorlyai.com/blog/school-ai-pilot-metrics"
-      ],
-      "topics": ["pilot metrics", "learning", "workload", "safety", "trust"]
-    },
-    {
-      "name": "School AI Privacy Review Checklist",
-      "path": "templates/school-ai-privacy-review-checklist.md",
-      "canonicalGuide": "https://honorlyai.com/school-ai-privacy-checklist",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai",
-        "https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance"
-      ],
-      "topics": ["student data", "FERPA review", "COPPA review", "retention", "subprocessors"]
-    },
-    {
-      "name": "Teacher Classroom AI Guidelines",
-      "path": "templates/teacher-classroom-ai-guidelines.md",
-      "canonicalGuide": "https://honorlyai.com/ai-policy-for-teachers",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/assignment-level-ai-directions",
-        "https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance"
-      ],
-      "topics": ["teachers", "classroom rules", "assignment boundaries", "oversight"]
-    },
-    {
-      "name": "Teacher Visibility and AI Tutor Review Worksheet",
-      "path": "templates/teacher-visibility-ai-tutor-review.md",
-      "canonicalGuide": "https://honorlyai.com/ai-tutoring-for-schools",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance",
-        "https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools"
-      ],
-      "topics": ["AI tutoring", "teacher visibility", "scaffolding", "accessibility"]
-    },
-    {
-      "name": "AI Academic Integrity Policy",
-      "path": "templates/ai-academic-integrity-policy.md",
-      "canonicalGuide": "https://honorlyai.com/ai-academic-integrity-policy",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ai-detectors-academic-integrity-schools",
-        "https://honorlyai.com/blog/ai-rules-student-writing"
-      ],
-      "topics": ["academic integrity", "AI disclosure", "assessment", "student authorship"]
-    },
-    {
-      "name": "AI Detector and Academic-Integrity Due-Process Checklist",
-      "path": "templates/ai-detector-due-process-checklist.md",
-      "canonicalGuide": "https://honorlyai.com/ai-academic-integrity-policy",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ai-detectors-academic-integrity-schools",
-        "https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy"
-      ],
-      "topics": ["AI detector", "due process", "false positives", "student review"]
-    },
-    {
-      "name": "AI Incident Response Plan",
-      "path": "templates/ai-incident-response-plan.md",
-      "canonicalGuide": "https://honorlyai.com/resources",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy",
-        "https://honorlyai.com/blog/explain-classroom-ai-to-parents"
-      ],
-      "topics": ["incident response", "privacy", "safety", "access control"]
-    },
-    {
-      "name": "AI Data Lifecycle Worksheet",
-      "path": "templates/ai-data-lifecycle-worksheet.md",
-      "canonicalGuide": "https://honorlyai.com/ferpa-ai-schools",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai",
-        "https://honorlyai.com/blog/school-ai-procurement-questions"
-      ],
-      "topics": ["data inventory", "retention", "deletion", "access", "purpose limitation"]
-    },
-    {
-      "name": "New Jersey School District AI Policy Readiness Checklist",
-      "path": "templates/new-jersey-ai-policy-readiness-checklist.md",
-      "canonicalGuide": "https://honorlyai.com/ai-policy-template",
-      "relatedArticles": [
-        "https://honorlyai.com/blog/new-jersey-school-ai-policy-2026",
-        "https://honorlyai.com/blog/explain-classroom-ai-to-parents"
-      ],
-      "topics": ["New Jersey", "board policy", "public questions", "annual review"]
-    }
+    {"name":"District AI Vendor Evaluation Checklist","path":"templates/district-ai-vendor-evaluation-checklist.md","canonicalGuide":"https://honorlyai.com/evaluate-ai-vendors-for-schools","relatedArticles":["https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai","https://honorlyai.com/blog/school-ai-procurement-questions"],"topics":["AI vendor evaluation","K-12 procurement","student privacy","teacher oversight"]},
+    {"name":"District AI Procurement Question Bank","path":"templates/district-ai-procurement-question-bank.md","canonicalGuide":"https://honorlyai.com/evaluate-ai-vendors-for-schools","relatedArticles":["https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai","https://honorlyai.com/blog/school-ai-procurement-questions"],"topics":["vendor response","data flow","model providers","contract exit"]},
+    {"name":"Student AI Acceptable-Use Policy","path":"templates/student-ai-acceptable-use-policy.md","canonicalGuide":"https://honorlyai.com/student-ai-acceptable-use-policy","relatedArticles":["https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy","https://honorlyai.com/blog/assignment-level-ai-directions"],"topics":["student AI policy","acceptable use","academic integrity","privacy"]},
+    {"name":"Classroom AI Use Levels","path":"templates/classroom-ai-use-levels.md","canonicalGuide":"https://honorlyai.com/ai-use-levels-for-schools","relatedArticles":["https://honorlyai.com/blog/assignment-level-ai-directions","https://honorlyai.com/blog/ai-rules-student-writing"],"topics":["assignment rules","AI disclosure","teacher control","classroom AI"]},
+    {"name":"Assignment AI-Use Statement Builder","path":"templates/assignment-ai-use-statement-builder.md","canonicalGuide":"https://honorlyai.com/ai-use-levels-for-schools","relatedArticles":["https://honorlyai.com/blog/assignment-level-ai-directions","https://honorlyai.com/blog/ai-rules-student-writing"],"topics":["assignment statement","AI use levels","disclosure","student writing"]},
+    {"name":"Parent and Family AI Notice","path":"templates/parent-family-ai-notice.md","canonicalGuide":"https://honorlyai.com/school-parent-notice","relatedArticles":["https://honorlyai.com/blog/explain-classroom-ai-to-parents"],"topics":["family communication","student privacy","school AI notice"]},
+    {"name":"Family AI Launch Communication Checklist","path":"templates/family-ai-launch-communication-checklist.md","canonicalGuide":"https://honorlyai.com/school-parent-notice","relatedArticles":["https://honorlyai.com/blog/explain-classroom-ai-to-parents","https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy"],"topics":["parent notice","family FAQ","teacher visibility","AI launch"]},
+    {"name":"School District AI Pilot Plan","path":"templates/school-district-ai-pilot-plan.md","canonicalGuide":"https://honorlyai.com/school-district-ai-pilot-checklist","relatedArticles":["https://honorlyai.com/blog/six-week-school-ai-pilot","https://honorlyai.com/blog/school-ai-pilot-metrics"],"topics":["district AI pilot","implementation","evaluation","rollout"]},
+    {"name":"School AI Pilot Measurement Scorecard","path":"templates/school-ai-pilot-measurement-scorecard.md","canonicalGuide":"https://honorlyai.com/school-district-ai-pilot-checklist","relatedArticles":["https://honorlyai.com/blog/six-week-school-ai-pilot","https://honorlyai.com/blog/school-ai-pilot-metrics"],"topics":["pilot metrics","learning","workload","safety","trust"]},
+    {"name":"School AI Privacy Review Checklist","path":"templates/school-ai-privacy-review-checklist.md","canonicalGuide":"https://honorlyai.com/school-ai-privacy-checklist","relatedArticles":["https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai","https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance"],"topics":["student data","FERPA review","COPPA review","retention","subprocessors"]},
+    {"name":"Teacher Classroom AI Guidelines","path":"templates/teacher-classroom-ai-guidelines.md","canonicalGuide":"https://honorlyai.com/ai-policy-for-teachers","relatedArticles":["https://honorlyai.com/blog/assignment-level-ai-directions","https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance"],"topics":["teachers","classroom rules","assignment boundaries","oversight"]},
+    {"name":"Teacher Visibility and AI Tutor Review Worksheet","path":"templates/teacher-visibility-ai-tutor-review.md","canonicalGuide":"https://honorlyai.com/ai-tutoring-for-schools","relatedArticles":["https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance","https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools"],"topics":["AI tutoring","teacher visibility","scaffolding","accessibility"]},
+    {"name":"AI Academic Integrity Policy","path":"templates/ai-academic-integrity-policy.md","canonicalGuide":"https://honorlyai.com/ai-academic-integrity-policy","relatedArticles":["https://honorlyai.com/blog/ai-detectors-academic-integrity-schools","https://honorlyai.com/blog/ai-rules-student-writing"],"topics":["academic integrity","AI disclosure","assessment","student authorship"]},
+    {"name":"AI Detector and Academic-Integrity Due-Process Checklist","path":"templates/ai-detector-due-process-checklist.md","canonicalGuide":"https://honorlyai.com/ai-academic-integrity-policy","relatedArticles":["https://honorlyai.com/blog/ai-detectors-academic-integrity-schools","https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy"],"topics":["AI detector","due process","false positives","student review"]},
+    {"name":"AI Incident Response Plan","path":"templates/ai-incident-response-plan.md","canonicalGuide":"https://honorlyai.com/resources","relatedArticles":["https://honorlyai.com/blog/ai-bans-are-not-school-ai-policy","https://honorlyai.com/blog/explain-classroom-ai-to-parents"],"topics":["incident response","privacy","safety","access control"]},
+    {"name":"AI Data Lifecycle Worksheet","path":"templates/ai-data-lifecycle-worksheet.md","canonicalGuide":"https://honorlyai.com/ferpa-ai-schools","relatedArticles":["https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai","https://honorlyai.com/blog/school-ai-procurement-questions"],"topics":["data inventory","retention","deletion","access","purpose limitation"]},
+    {"name":"New Jersey School District AI Policy Readiness Checklist","path":"templates/new-jersey-ai-policy-readiness-checklist.md","canonicalGuide":"https://honorlyai.com/ai-policy-template","relatedArticles":["https://honorlyai.com/blog/new-jersey-school-ai-policy-2026","https://honorlyai.com/blog/explain-classroom-ai-to-parents"],"topics":["New Jersey","board policy","public questions","annual review"]},
+    {"name":"AI Accommodations, IEP, and Section 504 Implementation Workflow","path":"templates/ai-accommodations-iep-504-implementation-workflow.md","canonicalGuide":"https://honorlyai.com/accessibility","relatedArticles":["https://honorlyai.com/blog/teacher-ai-visibility-without-surveillance","https://honorlyai.com/blog/ferpa-coppa-state-privacy-school-ai"],"topics":["AI accommodations","IEP implementation","Section 504","accessibility","human oversight","data minimization"]}
   ]
 }

@@ -2,6 +2,20 @@
 
 All notable public toolkit changes are recorded here.
 
+## 1.6.0 - 2026-08-24
+
+### Added
+
+- AI accommodations, IEP, and Section 504 implementation workflow for translating already-authorized student supports into bounded AI behavior without delegating diagnosis, eligibility, placement, plan changes, discipline, or other consequential decisions to an AI system.
+- Practical data-minimization, accessibility testing, assessment-boundary, fallback, family-communication, staff-authorization, and review controls for AI-enabled student supports.
+- Current U.S. Department of Education references for Section 504, FAPE, AI-related civil-rights risk, and student privacy review.
+
+### Changed
+
+- Aligned machine-readable founder metadata with the current canonical HonorlyAI public facts source: Trevor Rosato, Co-founder and CTO.
+- Expanded discovery language to include accessibility, accommodations, special-education review, and human-decision boundaries.
+- Added HonorlyAI Trust & Safety to the public discovery surfaces.
+
 ## 1.3.0 - 2026-08-09
 
 ### Added
