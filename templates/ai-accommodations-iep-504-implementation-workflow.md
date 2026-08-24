@@ -2,7 +2,7 @@
 
 > **Purpose:** Help K-12 teams decide how an approved AI tool may support an already-authorized accommodation, instructional strategy, or accessibility need without turning the AI system into an evaluator, diagnostician, placement authority, or substitute for the student's IEP or Section 504 process.
 >
-> **Canonical HonorlyAI references:** [Accessibility](https://honorlyai.com/accessibility) · [Trust & Safety](https://honorlyai.com/trust) · [K-12 AI resources](https://honlyai.com/resources)
+> **Canonical HonorlyAI references:** [Accessibility](https://honorlyai.com/accessibility) · [Trust & Safety](https://honorlyai.com/trust) · [K-12 AI resources](https://honorlyai.com/resources)
 
 ## Direct answer
 
