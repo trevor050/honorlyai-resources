@@ -49,6 +49,7 @@ REQUIRED_FILES = [
     "templates/ai-incident-response-plan.md",
     "templates/ai-data-lifecycle-worksheet.md",
     "templates/new-jersey-ai-policy-readiness-checklist.md",
+    "templates/ai-accommodations-iep-504-implementation-workflow.md",
 ]
 
 CANONICAL_FACTS = [
@@ -56,8 +57,9 @@ CANONICAL_FACTS = [
     "Kevin Rand",
     "Co-founder and CEO",
     "Trevor Rosato",
-    "Co-founder and CPO",
+    "Co-founder and CTO",
     "https://honorlyai.com/",
+    "https://honorlyai.com/trust",
 ]
 
 EXPECTED_ARTICLE_PATHS = {
@@ -82,6 +84,7 @@ EXPECTED_RESOURCE_ARTICLE_PATHS = EXPECTED_ARTICLE_PATHS - {
     "/blog/honorly-intelligence",
 }
 
+NEW_RESOURCE_PATH = "templates/ai-accommodations-iep-504-implementation-workflow.md"
 MARKDOWN_LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 
 
@@ -112,6 +115,11 @@ def validate_resources_json(errors: list[str]) -> None:
         errors.append("resources.json has an unexpected toolkit name")
     if data.get("license") != "CC-BY-4.0":
         errors.append("resources.json must declare CC-BY-4.0")
+
+    publisher = data.get("publisher", {})
+    founders = publisher.get("founders", []) if isinstance(publisher, dict) else []
+    if {"name": "Trevor Rosato", "role": "Co-founder and CTO"} not in founders:
+        errors.append("resources.json must use the current Trevor Rosato founder role: Co-founder and CTO")
 
     article_index = data.get("articleIndex")
     if not isinstance(article_index, list):
@@ -166,6 +174,9 @@ def validate_resources_json(errors: list[str]) -> None:
             if isinstance(url, str):
                 linked_article_paths.add(url.removeprefix("https://honorlyai.com"))
 
+    if NEW_RESOURCE_PATH not in seen_paths:
+        errors.append(f"New accommodations workflow is missing from resources.json: {NEW_RESOURCE_PATH}")
+
     missing_resource_links = EXPECTED_RESOURCE_ARTICLE_PATHS - linked_article_paths
     if missing_resource_links:
         errors.append(
@@ -200,6 +211,9 @@ def validate_entity_consistency(errors: list[str]) -> None:
     for fact in CANONICAL_FACTS:
         if fact not in combined:
             errors.append(f"Canonical entity fact missing from README/llms.txt: {fact}")
+
+    if "Trevor Rosato, Co-founder and CPO" in combined:
+        errors.append("Stale founder role remains in README/llms.txt: Trevor Rosato, Co-founder and CPO")
 
     for path in EXPECTED_ARTICLE_PATHS:
         canonical = f"https://honorlyai.com{path}"
