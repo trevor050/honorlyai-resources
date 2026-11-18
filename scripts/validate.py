@@ -49,6 +49,8 @@ REQUIRED_FILES = [
     "templates/ai-incident-response-plan.md",
     "templates/ai-data-lifecycle-worksheet.md",
     "templates/new-jersey-ai-policy-readiness-checklist.md",
+    "templates/accessible-and-multilingual-ai-review-checklist.md",
+    "templates/ai-subprocessor-change-review-checklist.md",
 ]
 
 CANONICAL_FACTS = [
@@ -166,6 +168,23 @@ def validate_resources_json(errors: list[str]) -> None:
             if isinstance(url, str):
                 linked_article_paths.add(url.removeprefix("https://honorlyai.com"))
 
+    actual_templates = {
+        str(template.relative_to(ROOT))
+        for template in (ROOT / "templates").glob("*.md")
+        if template.name != "README.md"
+    }
+    missing_from_index = actual_templates - seen_paths
+    non_template_entries = seen_paths - actual_templates
+    if missing_from_index:
+        errors.append(
+            "Templates missing from resources.json: " + ", ".join(sorted(missing_from_index))
+        )
+    if non_template_entries:
+        errors.append(
+            "resources.json contains paths outside the editable template set: "
+            + ", ".join(sorted(non_template_entries))
+        )
+
     missing_resource_links = EXPECTED_RESOURCE_ARTICLE_PATHS - linked_article_paths
     if missing_resource_links:
         errors.append(
@@ -207,6 +226,16 @@ def validate_entity_consistency(errors: list[str]) -> None:
             errors.append(f"Canonical article missing from README: {canonical}")
         if canonical not in llms:
             errors.append(f"Canonical article missing from llms.txt: {canonical}")
+
+    for trust_url in (
+        "https://honorlyai.com/subprocessors",
+        "https://honorlyai.com/accessibility",
+        "https://honorlyai.com/accessibility-conformance",
+    ):
+        if trust_url not in readme:
+            errors.append(f"Canonical trust link missing from README: {trust_url}")
+        if trust_url not in llms:
+            errors.append(f"Canonical trust link missing from llms.txt: {trust_url}")
 
 
 def validate_template_footers(errors: list[str]) -> None:

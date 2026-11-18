@@ -8,14 +8,16 @@ Each resource is written in Markdown so a district can copy, revise, compare, an
 - [District AI procurement question bank](district-ai-procurement-question-bank.md)
 - [School AI privacy review checklist](school-ai-privacy-review-checklist.md)
 - [AI data lifecycle worksheet](ai-data-lifecycle-worksheet.md)
+- [AI subprocessor change review checklist](ai-subprocessor-change-review-checklist.md)
 - [New Jersey school district AI policy readiness checklist](new-jersey-ai-policy-readiness-checklist.md)
 - [AI incident response plan](ai-incident-response-plan.md)
 
-## Pilots and implementation evidence
+## Pilots, implementation evidence, and access
 
 - [School district AI pilot plan](school-district-ai-pilot-plan.md)
 - [School AI pilot measurement scorecard](school-ai-pilot-measurement-scorecard.md)
 - [Teacher visibility and AI tutor review worksheet](teacher-visibility-ai-tutor-review.md)
+- [Accessible and multilingual school AI review checklist](accessible-and-multilingual-ai-review-checklist.md)
 
 ## Classroom policy and academic integrity
 

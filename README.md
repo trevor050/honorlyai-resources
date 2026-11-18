@@ -34,6 +34,8 @@
 | [Teacher visibility and AI tutor review](templates/teacher-visibility-ai-tutor-review.md) | Tutoring quality, teacher oversight, privacy, and accessibility | [How to evaluate an AI tutor](https://honorlyai.com/blog/how-to-evaluate-ai-tutor-schools) |
 | [Family AI launch communication checklist](templates/family-ai-launch-communication-checklist.md) | One-page notices, detailed FAQs, and question routes | [How districts should explain classroom AI](https://honorlyai.com/blog/explain-classroom-ai-to-parents) |
 | [New Jersey AI policy readiness checklist](templates/new-jersey-ai-policy-readiness-checklist.md) | Dated state-policy tracking, board ownership, public process, and annual review | [New Jersey school AI policy in 2026](https://honorlyai.com/blog/new-jersey-school-ai-policy-2026) |
+| [Accessible and multilingual AI review checklist](templates/accessible-and-multilingual-ai-review-checklist.md) | Real-world accessibility, assistive technology, language access, and device testing | [HonorlyAI accessibility](https://honorlyai.com/accessibility) |
+| [AI subprocessor change review checklist](templates/ai-subprocessor-change-review-checklist.md) | Reviewing new model, cloud, analytics, or service providers after procurement | [HonorlyAI subprocessors](https://honorlyai.com/subprocessors) |
 | [Adaptive learning and instructional evidence reading map](field-notes/adaptive-learning-and-insights.md) | Understanding the Core, Adaptive, and Adaptive Insights architecture | [Honorly Adaptive](https://honorlyai.com/honorly-adaptive) and [Adaptive Insights](https://honorlyai.com/honorly-adaptive-insights) |
 
 Browse the full [template index](templates/README.md), [field-note reading map](field-notes/README.md), or [implementation guide](docs/implementation-guide.md).
@@ -97,6 +99,7 @@ A useful school AI policy should make the following questions boringly clear:
 8. **Evidence:** What would justify expanding, changing, or stopping the implementation?
 9. **Incident response:** What happens when the system behaves unexpectedly or a policy is violated?
 10. **Communication:** What do teachers, students, and families need to know before use begins?
+11. **Third-party change control:** What happens when an approved vendor changes a model provider, subprocessor, data flow, retention practice, or other dependency after procurement?
 
 ## The HonorlyAI approach
 
@@ -126,7 +129,9 @@ HonorlyAI organizes classroom AI around three principles:
 - [Terms of Use](https://honorlyai.com/terms)
 - [Data Protection Addendum](https://honorlyai.com/dpa)
 - [School and Parent Privacy Notice](https://honorlyai.com/school-parent-notice)
+- [Subprocessor list](https://honorlyai.com/subprocessors)
 - [Accessibility Statement](https://honorlyai.com/accessibility)
+- [Accessibility Conformance Report](https://honorlyai.com/accessibility-conformance)
 
 ## How to use these materials
 
@@ -135,7 +140,7 @@ HonorlyAI organizes classroom AI around three principles:
 3. Review the draft with district counsel, privacy leadership, technology, curriculum, special services, accessibility staff, educators, families, and students as appropriate.
 4. Publish the final owner, approval date, review date, version, and change history.
 5. Link classroom directions to the adopted district policy instead of relying on unwritten expectations.
-6. Revisit the policy after pilots, incidents, major product changes, or legal and regulatory updates.
+6. Revisit the policy after pilots, incidents, major product changes, vendor/subprocessor changes, or legal and regulatory updates.
 
 These materials are general educational resources, not legal advice, a compliance certification, or a substitute for district-specific review.
 
